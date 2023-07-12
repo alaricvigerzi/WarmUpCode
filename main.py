@@ -1,5 +1,6 @@
 # Print my name
-print("Alaric")
+my_name = "Alaric"
+print(my_name)
 
 # Assign my favourite number to a variable
 fav_num = 9
@@ -38,3 +39,7 @@ eng2 = AllEngineer("Tim", "Electrical", 24)
 # Print both engineers attributes
 print(eng1.requestattributes())
 print(eng2.requestattributes())
+
+# Change my name to be the reverse and print it
+reverse_my_name = my_name[::-1]
+print(reverse_my_name)
